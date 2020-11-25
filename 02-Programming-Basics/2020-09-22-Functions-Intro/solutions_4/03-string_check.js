@@ -1,5 +1,0 @@
-
-function isStrInWord(a, b) {
-	
-}
-
