@@ -9,7 +9,7 @@ let counter = 0;
 let scoreCounterX = 0;
 let scoreCounterO = 0;
 winner.innerHTML = `${start}'s turn`;
-console.log(scoreX.children);
+
 cells.forEach((cell) => {
 	cell.addEventListener("click", () => {
 		if (cell.innerHTML === "") {
