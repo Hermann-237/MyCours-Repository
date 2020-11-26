@@ -9,29 +9,10 @@
     <h1>Close and oppen</h1>
 
     <script>
-
-
-      /* window.setTimeout(function () {
-        open(
-          "http://www.google.com",
-          "cameroun",
-          "width=500;height=500",
-          "true"
-        );
-        /* b.textContent = "Mon contenu a changer"; */
-      }, 2000); */
-
-      /* function aF() {
-        let b = document.querySelector("h1");
-        b.textContent = "Mon contenu a changer";
-      } */
-
-      /*  window.open(
-        "http://www.google.com",
-        "cameroun",
-        "width=500;height=500",
-        "true"
-      ); */
+      let h1 = document.querySelector("h1");
+      let a = document.createElement("p");
+      a.innerHTML = "ceci est mon element p";
+      document.body.insertBefore(a, h1);
     </script>
   </body>
 </html>
