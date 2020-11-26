@@ -6,13 +6,21 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Close and oppen</h1>
+    <table>
+      <tr>
+        <td onclick="oui">11</td>
+      </tr>
+    </table>
 
     <script>
-      let h1 = document.querySelector("h1");
-      let a = document.createElement("p");
-      a.innerHTML = "ceci est mon element p";
-      document.body.insertBefore(a, h1);
+      let td = document.querySelector("table");
+
+      console.log(td);
+      function oui() {
+        console.log("hermann");
+        console.log(td.taget);
+      }
+      td.addEventListener("click", oui);
     </script>
   </body>
 </html>
